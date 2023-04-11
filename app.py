@@ -4,8 +4,8 @@ import pickle
 import numpy as np
 import json
 import pandas as pd
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.naive_bayes import MultinomialNB
+# from sklearn.feature_extraction.text import CountVectorizer
+# from sklearn.naive_bayes import MultinomialNB
 # from sklearn.externals import joblib
 app = Flask(__name__)
 api = Api(app)
