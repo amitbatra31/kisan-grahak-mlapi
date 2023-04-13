@@ -8,6 +8,7 @@ import pandas as pd
 # from sklearn.naive_bayes import MultinomialNB
 # from sklearn.externals import joblib
 app = Flask(__name__)
+model = pickle.load(open('model.pickle','rb'))
 api = Api(app)
 
 # Create parser for the payload data
